@@ -89,8 +89,6 @@ java AssignJava.FileSplitter
 java AssignJava.FileMerger
 
 
-⚠️ Note: Both programs use System.console() for input, which may not work in some IDEs like Eclipse or IntelliJ. It's recommended to run from a terminal or command prompt.
+Note: Both programs use System.console() for input, which may not work in some IDEs like Eclipse or IntelliJ. It's recommended to run from a terminal or command prompt.
 
-License
 
-This project is for educational purposes and demonstrates foundational Java OOP and file I/O concepts.
