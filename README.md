@@ -48,38 +48,9 @@ javac Assignment1/HeartRateApplication.java
 java Assignment1.HeartRateApplication
 
 4. File Splitter and Merger (Package: AssignJava)
-Description
-
-These programs demonstrate basic file handling by:
-
-Splitting a large file into multiple parts of a specified size.
-
-Merging the parts back into the original file.
-
 Files:
-
 FileSplitter.java
-
 FileMerger.java
-
-How it works:
-
-FileSplitter
-
-Prompts the user to enter a file path and desired split size (in bytes).
-
-Splits the original file into multiple .txt parts of specified size.
-
-Deletes the original file after successful split.
-
-FileMerger
-
-Prompts the user to enter the base name of the original file.
-
-Reconstructs the original file by sequentially reading and appending the split parts.
-
-Deletes each part file after merging.
-
 Compile:
 javac AssignJava/FileSplitter.java
 javac AssignJava/FileMerger.java
